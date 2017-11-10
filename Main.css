@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+}
+body{
+	background-color:#F5F5F5;
+}
+header{
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+	padding:10px;
+}
+a{
+	text-decoration:none;
+	color:#1a1a1a;
+	font-family:Verdana, Geneva, sans-serif;
+}
+p{
+	font-family:"Times New Roman", Times, serif;
+	font-style:italic;
+}
+nav{
+	font-size:90%;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	background-color:#483D8B;
+}
+.row{
+	margin:1%;
+	padding:0 25px;
+}
+.ruta1{
+	display:flex;
+	justify-content:center;
+}
+.välkommen{
+	text-align:center;
+	width:70%;
+	margin:2%;
+}
+.info{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.column{
+	text-align:center;
+	width:65%;
+	border:2px solid;
+	border-radius:10px;
+	margin:1.5% 5%;
+	padding:5px;
+}
+.ruta2{
+	display:flex;
+	justify-content:center;
+	margin:3% 30%;
+	flex-direction:column;
+	line-height:200%;
+	font-size:90%
+}
+.ruta3{
+	display:flex;
+	justify-content:center;
+}
+.huvudmeny{
+	order:2;
+	padding:20px;
+	border:2px solid;
+	border-radius:10px;
+	margin:1.5% 5%;
+	padding:10px 30px;
+	flex-direction:column;
+	flex:2;
+	line-height:160%;
+}
+.extra{
+	order:1;
+	padding:20px;
+	border:2px solid;
+	border-radius:10px;
+	margin:1.5% 5%;
+	padding:10px 30px;
+	flex-direction:column;
+	flex:1;
+	line-height:260%;
+}
+.dricka{
+	order:3;
+	padding:20px;
+	border:2px solid;
+	border-radius:10px;
+	margin:1.5% 5%;
+	padding:10px 30px;
+	flex-direction:column;
+	flex:1;
+	line-height:260%;
+}
+@media screen and (max-width:602px){
+	nav{
+		font-size:80%;
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		flex-wrap:wrap;
+		text-align:center;
+	}
+	.ruta2{
+		margin:3%;
+		text-align:center;
+	}
+	.ruta3{
+		flex-direction:column;
+	}
+	.huvudmeny{
+		order:1;
+	}	
+}	
